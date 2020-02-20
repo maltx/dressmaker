@@ -5,9 +5,7 @@
     <artifactId>hellofx</artifactId>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>11</maven.compiler.release>
-        <javafx.version>13</javafx.version>
+        <mainClass>hu.unideb.inf.dressmaker.hellofx.App</mainClass>
     </properties>
 
     <parent>
