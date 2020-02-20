@@ -7,7 +7,7 @@
 
     <properties>
         <javafx.version>13</javafx.version>
-        <mainClass>hu.unideb.inf.dressmaker.controller.MainApp</mainClass>
+        <mainClass>fxscene/hu.unideb.inf.dressmaker.controller.MainApp</mainClass>
     </properties>
 
     <parent>
@@ -25,10 +25,10 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>hu.unideb.inf</groupId>
             <artifactId>client-api</artifactId>
-        </dependency>
+        </dependency>-->
     </dependencies>
     <build>
         <plugins>

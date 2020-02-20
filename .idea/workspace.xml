@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcfa1d3d-41b2-475d-a82a-578f1410b0aa" name="Default Changelist" comment="" />
+    <list default="true" id="fcfa1d3d-41b2-475d-a82a-578f1410b0aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fxscene/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dressmakerclientapi/target/" />
@@ -25,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
+            <state relative-caret-position="825">
               <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
             </state>
           </provider>
@@ -40,19 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fxscene/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/hu/unideb/inf/dressmaker/view/scene.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -64,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/controller/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -83,6 +87,9 @@
         <option value="FxmlFile" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -159,13 +166,12 @@
     <option name="width" value="959" />
     <option name="height" value="1052" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,157 +184,16 @@
               <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
               <item name="client-api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-              <item name="inf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-              <item name="inf" type="462c0819:PsiDirectoryNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-              <item name="inf" type="462c0819:PsiDirectoryNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-              <item name="inf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-              <item name="inf" type="462c0819:PsiDirectoryNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-              <item name="inf" type="462c0819:PsiDirectoryNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
@@ -432,18 +297,18 @@
       <workItem from="1581973894381" duration="3630000" />
       <workItem from="1582009956487" duration="1403000" />
       <workItem from="1582013342709" duration="1305000" />
-      <workItem from="1582104529963" duration="3276000" />
+      <workItem from="1582104529963" duration="3972000" />
+      <workItem from="1582225810980" duration="708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19851000" />
+    <option name="totallyTimeSpent" value="21255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27214515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,7 +317,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +333,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.21611527" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.21611527" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -509,13 +374,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-linux.jar!/com/sun/glass/ui/Application.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-linux.jar!/com/sun/glass/ui/Application.class" />
     <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/main/Main.java" />
     <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/fxscene/view/styles.css" />
     <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/fxscene/view/secondary.fxml" />
@@ -529,48 +388,10 @@
     <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/SecondaryController.java" />
     <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/Apper.java" />
     <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/App.java" />
-    <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fxscene/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/menu.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="167" selection-start-line="6" selection-start-column="167" selection-end-line="6" selection-end-column="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/styles.css" />
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/MenuController.java" />
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/menu.fxml" />
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/App.java" />
     <entry file="file://$PROJECT_DIR$/client-api/src/main/java/hu/unideb/inf/dressmaker/clientapi/service/WorkerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -608,13 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-api/src/main/java/hu/unideb/inf/dressmaker/clientapi/modell/SectionVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-api/src/main/java/hu/unideb/inf/dressmaker/clientapi/modell/PresenceVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -622,19 +436,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/controller/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/module-info.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="825">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/hu/unideb/inf/dressmaker/view/scene.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -643,17 +451,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/hu/unideb/inf/dressmaker/view/scene.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-api/src/main/java/hu/unideb/inf/dressmaker/clientapi/modell/SectionVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        <state relative-caret-position="135">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fxscene/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/controller/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
