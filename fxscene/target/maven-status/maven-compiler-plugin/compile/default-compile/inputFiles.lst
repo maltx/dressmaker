@@ -1,3 +1,3 @@
-/home/maltx/swe_2020/samples/IDE/IntelliJ/Non-Modular/Maven/hellofx/src/main/java/org/openjfx/PrimaryController.java
-/home/maltx/swe_2020/samples/IDE/IntelliJ/Non-Modular/Maven/hellofx/src/main/java/org/openjfx/SecondaryController.java
-/home/maltx/swe_2020/samples/IDE/IntelliJ/Non-Modular/Maven/hellofx/src/main/java/org/openjfx/App.java
+/home/maltx/swe_2020/dressmaker/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/SecondaryController.java
+/home/maltx/swe_2020/dressmaker/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/main/App.java
+/home/maltx/swe_2020/dressmaker/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/PrimaryController.java
