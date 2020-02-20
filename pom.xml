@@ -20,7 +20,7 @@
 
     <modules>
         <module>client-api</module>
-        <module>fxscene</module>
+        <module>hellofx</module>
     </modules>
 
     <developers>
