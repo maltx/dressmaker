@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcfa1d3d-41b2-475d-a82a-578f1410b0aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/org/openjfx/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/org/openjfx/PrimaryController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/org/openjfx/SecondaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/primary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/hellofx/src/main/resources/view/primary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/secondary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/hellofx/src/main/resources/view/secondary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/hellofx/src/main/resources/view/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/org/openjfx/primary.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/org/openjfx/secondary.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/org/openjfx/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,7 +52,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/primary.fxml">
+        <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/view/primary.fxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="164" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
@@ -68,22 +62,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/secondary.fxml">
+        <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/view/secondary.fxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="164" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellofx/src/main/java/org/openjfx/PrimaryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -98,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="360">
+              <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -157,6 +142,7 @@
         <option value="$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/primary.fxml" />
         <option value="$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/secondary.fxml" />
         <option value="$PROJECT_DIR$/hellofx/pom.xml" />
+        <option value="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/App.java" />
       </list>
     </option>
   </component>
@@ -304,7 +290,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="hu.unideb.inf.dressmaker.hellofx" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -429,17 +415,17 @@
       <workItem from="1582009956487" duration="1403000" />
       <workItem from="1582013342709" duration="1305000" />
       <workItem from="1582104529963" duration="3972000" />
-      <workItem from="1582225810980" duration="6241000" />
+      <workItem from="1582225810980" duration="6527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26788000" />
+    <option name="totallyTimeSpent" value="27074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27214515" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27214515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -448,7 +434,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32831" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -694,7 +680,7 @@
     <entry file="file://$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/SecondaryController.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/primary.fxml">
+    <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/view/primary.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="164" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
@@ -702,10 +688,10 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/styles.css">
+    <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/view/styles.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/secondary.fxml">
+    <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/view/secondary.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="164" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
@@ -736,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="360">
+          <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
         </state>
       </provider>
     </entry>

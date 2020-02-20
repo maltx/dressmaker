@@ -5,7 +5,7 @@
     <artifactId>hellofx</artifactId>
 
     <properties>
-        <mainClass>hu.unideb.inf.dressmaker.hellofx.App</mainClass>
+        <mainClass>hu.unideb.inf.dressmaker.hellofx.main.App</mainClass>
     </properties>
 
     <parent>

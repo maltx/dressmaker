@@ -1,7 +1,9 @@
-package org.openjfx;
+package hu.unideb.inf.dressmaker.hellofx.controller;
+
+import hu.unideb.inf.dressmaker.hellofx.main.App;
+import javafx.fxml.FXML;
 
 import java.io.IOException;
-import javafx.fxml.FXML;
 
 public class SecondaryController {
 
