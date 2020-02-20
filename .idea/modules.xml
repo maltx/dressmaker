@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/client-api/client-api.iml" filepath="$PROJECT_DIR$/client-api/client-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dressmaker.iml" filepath="$PROJECT_DIR$/dressmaker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hellofx/hellofx.iml" filepath="$PROJECT_DIR$/hellofx/hellofx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxscene/fxscene.iml" filepath="$PROJECT_DIR$/fxscene/fxscene.iml" />
     </modules>
   </component>
 </project>

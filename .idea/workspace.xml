@@ -2,16 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcfa1d3d-41b2-475d-a82a-578f1410b0aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/org/openjfx/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/org/openjfx/PrimaryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/org/openjfx/SecondaryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/primary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/hellofx/src/main/resources/view/primary.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/secondary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/hellofx/src/main/resources/view/secondary.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/hellofx/src/main/resources/view/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/org/openjfx/primary.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/org/openjfx/secondary.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/org/openjfx/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/hellofx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/fxscene.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/PrimaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/SecondaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/SecondaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/main/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/view/primary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/src/main/resources/view/primary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/view/secondary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/src/main/resources/view/secondary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/src/main/resources/view/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/src/main/resources/view/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/target/classes/org/openjfx/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/classes/org/openjfx/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/target/classes/org/openjfx/PrimaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/classes/org/openjfx/PrimaryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/target/classes/org/openjfx/SecondaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/classes/org/openjfx/SecondaryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/target/classes/org/openjfx/primary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/classes/org/openjfx/primary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/target/classes/org/openjfx/secondary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/classes/org/openjfx/secondary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/target/classes/org/openjfx/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/classes/org/openjfx/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/target/hellofx-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/hellofx-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellofx/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,49 +59,58 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellofx/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/view/primary.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="164" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/view/secondary.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="164" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/PrimaryController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fxscene/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/App.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/view/primary.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+            <state relative-caret-position="105">
+              <caret line="7" column="164" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/view/secondary.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="164" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/PrimaryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/SecondaryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/main/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -136,13 +162,14 @@
         <option value="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/fxscene/main/Main.java" />
         <option value="$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/fxscene/main/App.java" />
         <option value="$PROJECT_DIR$/fxscene/src/main/java/org/openjfx/App.java" />
-        <option value="$PROJECT_DIR$/fxscene/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/PrimaryController.java" />
         <option value="$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/primary.fxml" />
         <option value="$PROJECT_DIR$/hellofx/src/main/resources/hu.unideb.inf.dressmaker.hellofx/secondary.fxml" />
         <option value="$PROJECT_DIR$/hellofx/pom.xml" />
         <option value="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/App.java" />
+        <option value="$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/main/App.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/fxscene/pom.xml" />
       </list>
     </option>
   </component>
@@ -159,16 +186,16 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hellofx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="fxscene" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hellofx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="fxscene" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hellofx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="fxscene" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="javafx" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
@@ -197,100 +224,20 @@
             <path>
               <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
               <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
+              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
               <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
+              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
               <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
+              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-              <item name="inf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-              <item name="inf" type="462c0819:PsiDirectoryNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="unideb" type="462c0819:PsiDirectoryNode" />
-              <item name="inf" type="462c0819:PsiDirectoryNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -415,17 +362,18 @@
       <workItem from="1582009956487" duration="1403000" />
       <workItem from="1582013342709" duration="1305000" />
       <workItem from="1582104529963" duration="3972000" />
-      <workItem from="1582225810980" duration="6527000" />
+      <workItem from="1582225810980" duration="6714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27074000" />
+    <option name="totallyTimeSpent" value="27261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27214515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17982924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,7 +382,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32831" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -670,17 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/SecondaryController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/view/primary.fxml">
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/view/primary.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="164" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
@@ -688,10 +626,10 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/view/styles.css">
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/view/styles.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellofx/src/main/resources/view/secondary.fxml">
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/resources/view/secondary.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="164" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
@@ -706,24 +644,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/PrimaryController.java">
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/PrimaryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/SecondaryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellofx/pom.xml">
+    <entry file="file://$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/main/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        <state relative-caret-position="225">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellofx/src/main/java/hu/unideb/inf/dressmaker/hellofx/App.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+        <state relative-caret-position="330">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fxscene/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
