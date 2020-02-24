@@ -32,4 +32,13 @@ public class DatabaseHelper {
 
         return connection;
     }
+
+    public static void closeConnection(Connection connection){
+
+        try {
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }

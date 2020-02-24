@@ -5,7 +5,6 @@ import hu.unideb.inf.dressmaker.clientapi.service.PresenceService;
 import hu.unideb.inf.dressmaker.core.service.database.DatabaseHelper;
 
 import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.List;
 
 public class PresenceServiceImpl implements PresenceService {
@@ -16,11 +15,8 @@ public class PresenceServiceImpl implements PresenceService {
 
         Connection connection = DatabaseHelper.createConnection();
 
-        try {
-            connection.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        DatabaseHelper.closeConnection(connection);
+
         return null;
     }
 }

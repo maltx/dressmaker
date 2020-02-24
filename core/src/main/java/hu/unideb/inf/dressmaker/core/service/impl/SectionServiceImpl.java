@@ -39,11 +39,7 @@ public class SectionServiceImpl implements SectionService {
             e.printStackTrace();
         }
 
-        try {
-            connection.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        DatabaseHelper.closeConnection(connection);
 
         System.out.println(sections);
 
