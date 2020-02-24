@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcfa1d3d-41b2-475d-a82a-578f1410b0aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-api/target/client-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/client-api/target/client-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxscene/fxscene.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/fxscene.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxscene/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/PrimaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxscene/target/classes/hu/unideb/inf/dressmaker/hellofx/controller/PrimaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/classes/hu/unideb/inf/dressmaker/hellofx/controller/PrimaryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxscene/target/fxscene-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/fxscene-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxscene/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fxscene/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/PresenceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/PresenceServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fxscene/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="480">
               <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
             </state>
           </provider>
@@ -76,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/PresenceServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="315">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/SectionServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="-57">
+              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/database/DatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="28" />
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,9 +178,9 @@
         <option value="$PROJECT_DIR$/fxscene/pom.xml" />
         <option value="$PROJECT_DIR$/fxscene/src/main/java/hu/unideb/inf/dressmaker/hellofx/controller/PrimaryController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/PresenceServiceImpl.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/database/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/SectionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/PresenceServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -264,117 +252,37 @@
             <path>
               <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
               <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="client-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="client-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="client-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="client-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="client-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="client-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientapi" type="462c0819:PsiDirectoryNode" />
-              <item name="modell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="client-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientapi" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
               <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
               <item name="fxscene" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
+              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
+              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dressmaker" type="462c0819:PsiDirectoryNode" />
+              <item name="fxscene" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dressmaker" type="b2602c69:ProjectViewProjectNode" />
@@ -549,12 +457,12 @@
       <workItem from="1582104529963" duration="3972000" />
       <workItem from="1582225810980" duration="7626000" />
       <workItem from="1582536171626" duration="1939000" />
-      <workItem from="1582566180915" duration="11184000" />
+      <workItem from="1582566180915" duration="11627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41296000" />
+    <option name="totallyTimeSpent" value="41739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
@@ -780,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fxscene/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -804,20 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/PresenceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/database/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="28" />
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -826,8 +717,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/SectionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="-57">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fxscene/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/PresenceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
