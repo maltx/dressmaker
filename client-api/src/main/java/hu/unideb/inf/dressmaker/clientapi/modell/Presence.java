@@ -9,13 +9,13 @@ import java.util.Date;
 @Getter
 @Setter
 @ToString
-public class PresenceVO {
+public class Presence {
 
-    private Integer id;
+    private Long id;
 
-    private WorkerVO workerID;
+    private Long workerID;
 
-    private SectionVO sectionID;
+    private Long sectionID;
 
     private Date date;
 

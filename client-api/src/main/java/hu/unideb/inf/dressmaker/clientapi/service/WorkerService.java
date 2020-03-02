@@ -1,11 +1,11 @@
 package hu.unideb.inf.dressmaker.clientapi.service;
 
-import hu.unideb.inf.dressmaker.clientapi.modell.WorkerVO;
+import hu.unideb.inf.dressmaker.clientapi.modell.Worker;
 
 import java.util.List;
 
 public interface WorkerService {
 
-    List<WorkerVO> findAll();
+    List<Worker> findAll();
 
 }

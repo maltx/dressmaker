@@ -7,12 +7,10 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class WorkerVO {
+public class Section {
 
     private Integer id;
 
     private String name;
-
-    private SectionVO sectionID;
 
 }

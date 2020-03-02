@@ -1,2 +1,3 @@
 /home/maltx/swe_2020/dressmaker/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/PresenceServiceImpl.java
+/home/maltx/swe_2020/dressmaker/core/src/main/java/hu/unideb/inf/dressmaker/core/service/database/DatabaseHelper.java
 /home/maltx/swe_2020/dressmaker/core/src/main/java/hu/unideb/inf/dressmaker/core/service/impl/SectionServiceImpl.java

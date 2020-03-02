@@ -1,6 +1,6 @@
 package hu.unideb.inf.dressmaker.core.service.impl;
 
-import hu.unideb.inf.dressmaker.clientapi.modell.SectionVO;
+import hu.unideb.inf.dressmaker.clientapi.modell.Section;
 import hu.unideb.inf.dressmaker.clientapi.service.SectionService;
 import hu.unideb.inf.dressmaker.core.service.database.DatabaseHelper;
 
@@ -10,18 +10,16 @@ import java.util.List;
 
 public class SectionServiceImpl implements SectionService {
 
-
-
     @Override
-    public List<SectionVO> findAll() {
+    public List<Section> findAll() {
 
         Connection connection = DatabaseHelper.createConnection();
 
         String query = "SELECT * FROM section";
 
-        List<SectionVO> sections = new ArrayList<>();
+        List<Section> sections = new ArrayList<>();
 
-        SectionVO sectionVO = new SectionVO();
+        Section section = new Section();
 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(query);
@@ -30,10 +28,10 @@ public class SectionServiceImpl implements SectionService {
                 Integer id = resultSet.getInt("id");
                 String name = resultSet.getString("name");
 
-                sectionVO.setId(id);
-                sectionVO.setName(name);
+                section.setId(id);
+                section.setName(name);
 
-                sections.add(sectionVO);
+                sections.add(section);
             }
         } catch (SQLException e) {
             e.printStackTrace();
