@@ -1,30 +1,40 @@
 package hu.unideb.inf.dressmaker.core.service.impl;
 
-import hu.unideb.inf.dressmaker.clientapi.modell.Section;
+import hu.unideb.inf.dressmaker.clientapi.modell.SectionVO;
 import hu.unideb.inf.dressmaker.clientapi.service.SectionService;
-import hu.unideb.inf.dressmaker.core.service.database.DatabaseHelper;
+import hu.unideb.inf.dressmaker.core.service.database.dao.SectionDao;
+import hu.unideb.inf.dressmaker.core.service.database.entity.Section;
+import hu.unideb.inf.dressmaker.core.service.util.ObjectMapperUtils;
 
-import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class SectionServiceImpl implements SectionService {
 
+    private SectionDao sectionDao = new SectionDao();
+
     @Override
-    public List<Section> findAll() {
+    public List<SectionVO> findAll() {
+
+        List<Section> sections = sectionDao.findAll();
+
+        return ObjectMapperUtils.mapAll(sections, SectionVO.class);
+    }
+
+    /*@Override
+    public List<SectionVO> findAll() {
 
         Connection connection = DatabaseHelper.createConnection();
 
         String query = "SELECT * FROM section";
 
-        List<Section> sections = new ArrayList<>();
-
-        Section section = new Section();
+        List<SectionVO> sections = new ArrayList<>();
 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             ResultSet resultSet = preparedStatement.executeQuery();
             while(resultSet.next()){
+                SectionVO section = new SectionVO();
+
                 Integer id = resultSet.getInt("id");
                 String name = resultSet.getString("name");
 
@@ -42,6 +52,6 @@ public class SectionServiceImpl implements SectionService {
         System.out.println(sections);
 
         return sections;
-    }
+    }*/
 
 }

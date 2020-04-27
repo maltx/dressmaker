@@ -6,10 +6,16 @@ import java.sql.SQLException;
 
 public class DatabaseHelper {
 
+    /*
     private static String driverName = "oracle.jdbc.OracleDriver";
     private static String url = "jdbc:oracle:thin:@codd.inf.unideb.hu:1521:ora12c";
     private static String userName = "u_u37ml1";
-    private static String password = "secret";
+    private static String password = "secret";*/
+
+    private static String driverName = "oracle.jdbc.OracleDriver";
+    private static String url = "jdbc:h2:mem:test";
+    private static String userName = "sa";
+    private static String password = "";
 
     static {
         try {

@@ -4,19 +4,15 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.util.Date;
-
 @Getter
 @Setter
 @ToString
-public class Presence {
+public class WorkerVO {
 
     private Long id;
 
-    private Long workerID;
+    private String name;
 
-    private Long sectionID;
-
-    private Date date;
+    private SectionVO section;
 
 }

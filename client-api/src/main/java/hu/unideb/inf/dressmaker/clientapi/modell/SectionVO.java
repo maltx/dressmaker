@@ -7,10 +7,10 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class Section {
+public class SectionVO {
 
-    private Integer id;
+    private Long id;
 
-    private String name;
+    private String section;
 
 }

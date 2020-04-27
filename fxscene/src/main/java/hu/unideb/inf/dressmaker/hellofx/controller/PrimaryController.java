@@ -11,10 +11,13 @@ public class PrimaryController {
 
     SectionService sectionService = new SectionServiceImpl();
 
+
     @FXML
     private void switchToSecondary() throws IOException {
+        System.out.println(sectionService.findAll());
+
         App.setRoot("secondary");
 
-        System.out.println(sectionService.findAll());
+
     }
 }

@@ -1,43 +1,51 @@
 package hu.unideb.inf.dressmaker.core.service.impl;
 
-import hu.unideb.inf.dressmaker.clientapi.modell.Presence;
+import hu.unideb.inf.dressmaker.clientapi.modell.PresenceVO;
 import hu.unideb.inf.dressmaker.clientapi.service.PresenceService;
-import hu.unideb.inf.dressmaker.core.service.database.DatabaseHelper;
+import hu.unideb.inf.dressmaker.core.service.database.dao.SectionDao;
+import hu.unideb.inf.dressmaker.core.service.database.entity.Section;
+import hu.unideb.inf.dressmaker.core.service.util.ObjectMapperUtils;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class PresenceServiceImpl implements PresenceService {
 
+    private SectionDao sectionDao = new SectionDao();
+
     @Override
-    public List<Presence> findALl() {
+    public List<PresenceVO> findALl() {
+
+        List<Section> presences = sectionDao.findAll();
+
+        return ObjectMapperUtils.mapAll(presences, PresenceVO.class);
+    }
+
+
+    /*@Override
+    public List<PresenceVO> findALl() {
 
         Connection connection = DatabaseHelper.createConnection();
 
         String query = "SELECT * FROM presence";
 
-        List<Presence> presences = new ArrayList<>();
-
-        Presence presence = new Presence();
+        List<PresenceVO> presences = new ArrayList<>();
 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
+                PresenceVO presence = new PresenceVO();
                 Long id = resultSet.getLong("id");
                 Long workerid = resultSet.getLong("workerid");
                 Long sectionid = resultSet.getLong("sectionid");
-                Date date = resultSet.getDate("date");
+                Date date = resultSet.getDate("presence_date");
 
                 presence.setId(id);
                 presence.setWorkerID(workerid);
                 presence.setSectionID(sectionid);
                 presence.setDate(date);
+
+                System.out.println(presence);
 
                 presences.add(presence);
             }
@@ -50,5 +58,7 @@ public class PresenceServiceImpl implements PresenceService {
         System.out.println(presences);
 
         return presences;
-    }
+    }*/
+
+
 }
