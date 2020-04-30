@@ -13,8 +13,8 @@
         <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
         <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
         <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@codd.inf.unideb.hu:1521:ora12c"/>
-        <property name="javax.persistence.jdbc.user" value="u_u37ml1"/>
-        <property name="javax.persistence.jdbc.password" value="Depisiszs00"/>
+        <property name="javax.persistence.jdbc.user" value="username"/>
+        <property name="javax.persistence.jdbc.password" value="password"/>
     </properties>
     </persistence-unit>
 </persistence>
