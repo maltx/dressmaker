@@ -184,4 +184,4 @@ nbdist/
 
 # End of https://www.gitignore.io/api/maven,eclipse,intellij,netbeans
 
-.gitignore
+gitignore
