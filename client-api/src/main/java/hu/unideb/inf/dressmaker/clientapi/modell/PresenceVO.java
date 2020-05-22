@@ -19,6 +19,6 @@ public class PresenceVO {
 
     private StatusVO status;
 
-    private Date date;
+    private Date datum;
 
 }

@@ -2,7 +2,7 @@ create sequence hibernate_sequence start with 1 increment by 1;
 
     create table Presence (
        id number(19,0) not null,
-        date date,
+        datum date,
         section_id number(19,0),
         status_id number(19,0),
         worker_id number(19,0),

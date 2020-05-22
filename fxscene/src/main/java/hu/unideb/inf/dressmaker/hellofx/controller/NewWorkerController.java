@@ -15,12 +15,7 @@ public class NewWorkerController {
     PresenceService presenceService = new PresenceServiceImpl();
 
     @FXML
-    private void switchToPrimary() throws IOException {
-        App.setRoot("menu");
-    }
-
-    @FXML
-    private void exit() throws IOException {
+    private void backToMainMenu() throws IOException {
         App.setRoot("menu");
     }
 }

@@ -29,6 +29,6 @@ public class Presence {
     @ManyToOne
     private Status status;
 
-    private Date date;
+    private Date datum;
 
 }
