@@ -20,28 +20,18 @@ public class NewWorkerController {
     @FXML
     private Label sectionNameLabel;
 
-    private String sectionName;
-
     PresenceService presenceService = new PresenceServiceImpl();
 
     public void initialize(){
         //sectionNameLabel.setText(menu.getNewWorkerCB().getSelectionModel().getSelectedItem().toString());
         //sectionNameLabel.setText("ember");
         //menuController.
+
     }
 
     @FXML
     private void backToMainMenu() throws IOException {
-        System.out.println(sectionName);
         App.setRoot("menu");
-    }
-
-    public String getSectionName() {
-        return sectionName;
-    }
-
-    public void setSectionName(String sectionName) {
-        this.sectionName = sectionName;
     }
 
     public Button getExitButton() {

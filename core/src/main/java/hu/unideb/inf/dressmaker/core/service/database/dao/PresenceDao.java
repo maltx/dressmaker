@@ -17,4 +17,8 @@ public class PresenceDao {
 
         return typedQuery.getResultList();
     }
+
+    public void makePresence(String workerName, String sectionName, String status){
+
+    }
 }

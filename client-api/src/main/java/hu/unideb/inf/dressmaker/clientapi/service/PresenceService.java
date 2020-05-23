@@ -8,4 +8,6 @@ public interface PresenceService {
 
     List<PresenceVO> findALl();
 
+    void makePresence(String workerName, String sectionName, String status);
+
 }

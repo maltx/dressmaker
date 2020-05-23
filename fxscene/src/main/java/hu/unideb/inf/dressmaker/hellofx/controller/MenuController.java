@@ -18,12 +18,7 @@ public class MenuController {
 
     SectionService sectionService = new SectionServiceImpl();
 
-    //NewWorkerController newWorkerController = new NewWorkerController();
-
     @FXML private javafx.scene.control.Button exitButton;
-
-    @FXML
-    private static Label tempLabel;
 
     @FXML
     private ChoiceBox presenceCB;
@@ -42,10 +37,7 @@ public class MenuController {
     }
 
     @FXML
-    private void openNewWorkerScene() throws IOException {
-        //tempLabel.setText(newWorkerCB.getSelectionModel().getSelectedItem().toString());
-        //newWorkerController.setSectionNameLabel(tempLabel);
-        App.setRoot("newWorker");
+    private void openNewWorkerScene() throws IOException {App.setRoot("newWorker");
     }
 
     @FXML
@@ -89,14 +81,6 @@ public class MenuController {
 
     public void setExitButton(Button exitButton) {
         this.exitButton = exitButton;
-    }
-
-    public static Label getTempLabel() {
-        return tempLabel;
-    }
-
-    public static void setTempLabel(Label tempLabel) {
-        MenuController.tempLabel = tempLabel;
     }
 
     @Override
