@@ -13,7 +13,13 @@ public class WorkerDao {
 
     public List<Worker> findAll(){
 
-        TypedQuery<Worker> typedQuery = EM.createQuery("SELECT s FROM Worker s", Worker.class);
+        TypedQuery<Worker> typedQuery = EM.createQuery("SELECT w FROM Worker w", Worker.class);
+
+        return typedQuery.getResultList();
+    }
+
+    public List<String> findWorkersBySection(String sectionName){
+        TypedQuery<String> typedQuery = EM.createQuery("SELECT w.name FROM Worker w where w.name = :sectionName", String.class);
 
         return typedQuery.getResultList();
     }

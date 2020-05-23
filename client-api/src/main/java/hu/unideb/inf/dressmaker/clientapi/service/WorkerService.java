@@ -8,4 +8,6 @@ public interface WorkerService {
 
     List<WorkerVO> findAll();
 
+    List<String> findWorkersBySection(String sectionName);
+
 }
