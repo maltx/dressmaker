@@ -8,4 +8,6 @@ public interface SectionService {
 
     List<SectionVO> findAll();
 
+    List<String> findSectionNames();
+
 }

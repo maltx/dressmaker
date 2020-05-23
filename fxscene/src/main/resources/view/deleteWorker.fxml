@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -14,11 +14,7 @@
             <Font size="22.0" />
          </font>
       </Label>
-      <TextField fx:id="inputNewWorkerTW" layoutX="426.0" layoutY="194.0" prefHeight="47.0" prefWidth="250.0" promptText="pl. Kovács János">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
-      <Button fx:id="newWorker" layoutX="466.0" layoutY="282.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="171.0" text="Rögzítés" />
+      <Button fx:id="newWorker" layoutX="466.0" layoutY="282.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="171.0" text="Törlés" />
+      <ChoiceBox layoutX="440.0" layoutY="145.0" prefHeight="48.0" prefWidth="224.0" />
    </children>
 </AnchorPane>
