@@ -8,6 +8,9 @@ import hu.unideb.inf.dressmaker.core.service.util.ObjectMapperUtils;
 
 import java.util.List;
 
+/**
+ * Class implementing the methods listed in the StatusService interface.
+ */
 public class StatusServiceImpl implements StatusService {
     private StatusDao statusDao = new StatusDao();
 

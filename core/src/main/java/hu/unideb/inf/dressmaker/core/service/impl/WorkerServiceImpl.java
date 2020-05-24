@@ -5,12 +5,14 @@ import hu.unideb.inf.dressmaker.clientapi.modell.WorkerVO;
 import hu.unideb.inf.dressmaker.clientapi.service.WorkerService;
 import hu.unideb.inf.dressmaker.core.service.database.dao.WorkerDao;
 import hu.unideb.inf.dressmaker.core.service.database.entity.Section;
-import hu.unideb.inf.dressmaker.core.service.database.entity.Status;
 import hu.unideb.inf.dressmaker.core.service.database.entity.Worker;
 import hu.unideb.inf.dressmaker.core.service.util.ObjectMapperUtils;
 
 import java.util.List;
 
+/**
+ * Class implementing the methods listed in the WorkerService interface.
+ */
 public class WorkerServiceImpl implements WorkerService {
     private WorkerDao workerDao = new WorkerDao();
 

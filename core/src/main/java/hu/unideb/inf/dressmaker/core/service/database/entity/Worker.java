@@ -5,6 +5,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+/**
+ * Class representing a Worker Entity.
+ */
 @Entity
 public class Worker {
 

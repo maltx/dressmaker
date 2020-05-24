@@ -1,10 +1,12 @@
 package hu.unideb.inf.dressmaker.core.service.database.entity;
 
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+/**
+ * Class representing a Section Entity.
+ */
 @Entity
 public class Section {
 
