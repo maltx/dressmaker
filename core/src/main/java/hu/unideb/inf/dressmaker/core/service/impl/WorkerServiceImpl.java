@@ -20,9 +20,26 @@ public class WorkerServiceImpl implements WorkerService {
     }
 
     @Override
-    public List<String> findWorkersBySection(String sectionName) {
-        List<String> workers = workerDao.findWorkersBySection(sectionName);
+    public List<WorkerVO> findWorkersBySection(String sectionName) {
+        List<Worker> workers = workerDao.findWorkersBySection(sectionName);
+
+        return ObjectMapperUtils.mapAll(workers, WorkerVO.class);
+    }
+
+    @Override
+    public List<String> findWorkerNamesBySection(String sectionName) {
+        List<String> workers = workerDao.findWorkerNamesBySection(sectionName);
 
         return workers;
+    }
+
+    @Override
+    public void persist(WorkerVO workerVO) {
+
+    }
+
+    @Override
+    public void remove(WorkerVO workerVO) {
+
     }
 }

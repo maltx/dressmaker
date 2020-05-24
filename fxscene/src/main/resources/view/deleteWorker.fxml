@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="1102.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.dressmaker.hellofx.controller.NewWorkerController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="1102.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.dressmaker.hellofx.controller.DeleteWorkerController">
    <children>
       <Button fx:id="exitButton" layoutX="920.0" layoutY="448.0" mnemonicParsing="false" onAction="#backToMainMenu" prefHeight="67.0" prefWidth="121.0" text="Kilépés" />
       <Label fx:id="sectionNameLabel" alignment="CENTER" layoutX="422.0" layoutY="42.0" prefHeight="54.0" prefWidth="258.0">
@@ -15,6 +15,6 @@
          </font>
       </Label>
       <Button fx:id="newWorker" layoutX="466.0" layoutY="282.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="171.0" text="Törlés" />
-      <ChoiceBox layoutX="440.0" layoutY="145.0" prefHeight="48.0" prefWidth="224.0" />
+      <ChoiceBox fx:id="workersCB" layoutX="440.0" layoutY="145.0" prefHeight="48.0" prefWidth="224.0" />
    </children>
 </AnchorPane>

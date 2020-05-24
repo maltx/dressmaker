@@ -31,6 +31,7 @@ public class NewWorkerController {
 
     @FXML
     private void backToMainMenu() throws IOException {
+
         App.setRoot("menu");
     }
 
