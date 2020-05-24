@@ -7,4 +7,6 @@ import java.util.List;
 public interface StatusService {
 
     List<StatusVO> findAll();
+
+    List<String> findStatusNames();
 }

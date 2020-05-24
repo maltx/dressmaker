@@ -18,4 +18,11 @@ public class StatusServiceImpl implements StatusService {
 
         return ObjectMapperUtils.mapAll(statuses, StatusVO.class);
     }
+
+    @Override
+    public List<String> findStatusNames() {
+        List<String> statusNames = statusDao.findStatusNames();
+
+        return statusNames;
+    }
 }

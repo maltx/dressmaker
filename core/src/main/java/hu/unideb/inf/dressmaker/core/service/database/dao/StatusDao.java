@@ -17,4 +17,10 @@ public class StatusDao {
 
         return typedQuery.getResultList();
     }
+
+    public List<String> findStatusNames(){
+        TypedQuery<String> typedQuery = EM.createQuery("SELECT s.status FROM Status s", String.class);
+
+        return typedQuery.getResultList();
+    }
 }
