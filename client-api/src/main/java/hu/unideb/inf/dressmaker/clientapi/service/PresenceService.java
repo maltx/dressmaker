@@ -5,18 +5,18 @@ import hu.unideb.inf.dressmaker.clientapi.modell.PresenceVO;
 import java.util.List;
 
 /**
- * Interface declaring the methods for presences
+ * Interface declaring the methods for presences.
  */
 public interface PresenceService {
 
     /**
-     * Returns all the presences
+     * Returns all the presences.
      * @return all the presences
      */
     List<PresenceVO> findALl();
 
     /**
-     * Inserts a given presence
+     * Inserts a given presence.
      * @param presenceVO
      */
     void persist(PresenceVO presenceVO);

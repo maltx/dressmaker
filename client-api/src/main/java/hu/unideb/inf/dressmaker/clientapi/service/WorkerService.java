@@ -11,21 +11,35 @@ import java.util.List;
 public interface WorkerService {
 
     /**
-     * Returns all the workers
+     * Returns all the workers.
      * @return all the workers
      */
     List<WorkerVO> findAll();
 
     /**
-     * Returns workers under a specific section
+     * Returns workers under a specific section.
      * @param sectionName
      * @return workers under a specific section
      */
     List<WorkerVO> findWorkersBySection(String sectionName);
 
+    /**
+     * Return only the names of the workers under a spicific section.
+     * @param sectionName
+     * @return only the names of the workers under a spicific section
+     */
     List<String> findWorkerNamesBySection(String sectionName);
 
+    /**
+     * Inserts a worker.
+     * @param workerName
+     * @param sectionVO
+     */
     void persist(String workerName, SectionVO sectionVO);
 
+    /**
+     * Deletes a worker.
+     * @param workerVO
+     */
     void remove(WorkerVO workerVO);
 }
