@@ -14,11 +14,11 @@
             <Font size="22.0" />
          </font>
       </Label>
-      <TextField fx:id="inputNewWorkerTW" layoutX="426.0" layoutY="194.0" prefHeight="47.0" prefWidth="250.0" promptText="pl. Kovács János">
+      <TextField fx:id="newWorkerTF" layoutX="426.0" layoutY="194.0" prefHeight="47.0" prefWidth="250.0" promptText="pl. Kovács János">
          <font>
             <Font size="18.0" />
          </font>
       </TextField>
-      <Button fx:id="newWorker" layoutX="466.0" layoutY="282.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="171.0" text="Rögzítés" />
+      <Button fx:id="newWorkerButton" layoutX="466.0" layoutY="282.0" mnemonicParsing="false" onAction="#newWorker" prefHeight="54.0" prefWidth="171.0" text="Rögzítés" />
    </children>
 </AnchorPane>

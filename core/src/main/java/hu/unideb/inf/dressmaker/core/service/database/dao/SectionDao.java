@@ -18,11 +18,6 @@ public class SectionDao {
         return typedQuery.getResultList();
     }
 
-    public List<String> findSectionNames(){
-        TypedQuery<String> typedQuery = EM.createQuery("SELECT s.section FROM Section s", String.class);
-
-        return typedQuery.getResultList();
-    }
 
     // insert : EM.persist
     // update : em.merge

@@ -40,6 +40,7 @@ public class WorkerDao {
 
     @Transactional
     public void persist(Worker worker) {
+        System.out.println(worker);
         EM.persist(worker);
     }
 

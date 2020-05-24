@@ -1,5 +1,6 @@
 package hu.unideb.inf.dressmaker.hellofx.controller;
 
+import hu.unideb.inf.dressmaker.clientapi.modell.SectionVO;
 import hu.unideb.inf.dressmaker.clientapi.service.SectionService;
 import hu.unideb.inf.dressmaker.clientapi.service.WorkerService;
 import hu.unideb.inf.dressmaker.core.service.impl.SectionServiceImpl;
@@ -18,7 +19,7 @@ public class MenuController {
 
     SectionService sectionService = new SectionServiceImpl();
 
-    static String temp;
+    static SectionVO temp;
 
     @FXML private javafx.scene.control.Button exitButton;
 
@@ -29,8 +30,8 @@ public class MenuController {
     private ChoiceBox newWorkerCB;
 
     public void initialize(){
-        presenceCB.getItems().addAll(sectionService.findSectionNames());
-        newWorkerCB.getItems().addAll(sectionService.findSectionNames());
+        presenceCB.getItems().addAll(sectionService.findAll());
+        newWorkerCB.getItems().addAll(sectionService.findAll());
     }
 
     @FXML
@@ -40,13 +41,13 @@ public class MenuController {
 
     @FXML
     private void openNewWorkerScene() throws IOException {
-        temp = newWorkerCB.getSelectionModel().getSelectedItem().toString();
+        temp = (SectionVO) newWorkerCB.getSelectionModel().getSelectedItem();
         App.setRoot("newWorker");
     }
 
     @FXML
     private void openDeleteWorkerScene() throws IOException{
-        temp = newWorkerCB.getSelectionModel().getSelectedItem().toString();
+        temp = (SectionVO) newWorkerCB.getSelectionModel().getSelectedItem();
         App.setRoot("deleteWorker");
     }
 

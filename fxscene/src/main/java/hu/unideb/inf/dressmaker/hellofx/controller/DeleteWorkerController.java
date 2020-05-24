@@ -25,8 +25,8 @@ public class DeleteWorkerController {
     private ChoiceBox workersCB;
 
     public void initialize(){
-        sectionNameLabel.setText(menuController.temp);
-        workersCB.getItems().addAll(workerService.findWorkersBySection(menuController.temp));
+        sectionNameLabel.setText(menuController.temp.toString());
+        workersCB.getItems().addAll(workerService.findWorkersBySection(menuController.temp.toString()));
     }
 
     @FXML

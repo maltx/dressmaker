@@ -24,9 +24,6 @@ public class SectionVO {
 
     @Override
     public String toString() {
-        return "SectionVO{" +
-                "id=" + id +
-                ", section='" + section + '\'' +
-                '}';
+        return section;
     }
 }

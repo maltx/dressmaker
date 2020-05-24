@@ -20,13 +20,6 @@ public class SectionServiceImpl implements SectionService {
         return ObjectMapperUtils.mapAll(sections, SectionVO.class);
     }
 
-    @Override
-    public List<String> findSectionNames() {
-        List<String> sectionNames = sectionDao.findSectionNames();
-
-        return sectionNames;
-    }
-
     /*@Override
     public List<SectionVO> findAll() {
 
