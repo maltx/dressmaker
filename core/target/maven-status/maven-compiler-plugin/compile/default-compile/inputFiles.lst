@@ -9,7 +9,6 @@ D:\repos\dressmaker\core\src\main\java\hu\unideb\inf\dressmaker\core\service\dat
 D:\repos\dressmaker\core\src\main\java\hu\unideb\inf\dressmaker\core\service\database\entity\Section.java
 D:\repos\dressmaker\core\src\main\java\hu\unideb\inf\dressmaker\core\service\database\entity\Presence.java
 D:\repos\dressmaker\core\src\main\java\hu\unideb\inf\dressmaker\core\service\database\EMFHandler.java
-D:\repos\dressmaker\core\src\main\java\hu\unideb\inf\dressmaker\core\service\database\DatabaseHelper.java
 D:\repos\dressmaker\core\src\main\java\hu\unideb\inf\dressmaker\core\service\database\dao\StatusDao.java
 D:\repos\dressmaker\core\src\main\java\hu\unideb\inf\dressmaker\core\service\impl\PresenceServiceImpl.java
 D:\repos\dressmaker\core\src\main\java\hu\unideb\inf\dressmaker\core\service\util\ObjectMapperUtils.java
