@@ -36,6 +36,7 @@ public class MenuController {
 
     @FXML
     private void openPresenceScene() throws IOException {
+        temp = (SectionVO) presenceCB.getSelectionModel().getSelectedItem();
         App.setRoot("presence");
     }
 

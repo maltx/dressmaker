@@ -25,9 +25,6 @@ public class StatusVO {
 
     @Override
     public String toString() {
-        return "StatusVO{" +
-                "id=" + id +
-                ", status='" + status + '\'' +
-                '}';
+        return status;
     }
 }

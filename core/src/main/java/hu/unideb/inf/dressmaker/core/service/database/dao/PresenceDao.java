@@ -19,7 +19,9 @@ public class PresenceDao {
         return typedQuery.getResultList();
     }
 
-    public void makePresence(String workerName, String sectionName, String status){
-
+    public void persist(Presence presence){
+        EM.getTransaction().begin();
+        EM.persist(presence);
+        EM.getTransaction().commit();
     }
 }

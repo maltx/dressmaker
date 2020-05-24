@@ -23,8 +23,8 @@ public class PresenceServiceImpl implements PresenceService {
     }
 
     @Override
-    public void makePresence(String workerName, String sectionName, String status) {
-        presenceDao.makePresence(workerName, sectionName, status);
+    public void persist(PresenceVO presenceVO) {
+        presenceDao.persist(ObjectMapperUtils.map(presenceVO, Presence.class));
     }
 
 
