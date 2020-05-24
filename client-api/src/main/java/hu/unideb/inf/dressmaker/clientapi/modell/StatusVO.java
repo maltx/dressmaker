@@ -1,6 +1,8 @@
 package hu.unideb.inf.dressmaker.clientapi.modell;
 
-
+/**
+ * Class representing a status on the view side
+ */
 public class StatusVO {
 
     private Long id;

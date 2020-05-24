@@ -1,6 +1,8 @@
 package hu.unideb.inf.dressmaker.clientapi.modell;
 
-
+/**
+ * Class representing a worker on the view side
+ */
 public class WorkerVO {
 
     private Long id;

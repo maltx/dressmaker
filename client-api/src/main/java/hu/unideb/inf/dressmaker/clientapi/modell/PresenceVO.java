@@ -1,8 +1,10 @@
 package hu.unideb.inf.dressmaker.clientapi.modell;
 
-
 import java.util.Date;
 
+/**
+ * Class representing a presence on the view side
+ */
 public class PresenceVO {
 
     private Long id;

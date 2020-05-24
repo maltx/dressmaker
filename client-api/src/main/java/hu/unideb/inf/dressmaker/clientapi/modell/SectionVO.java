@@ -1,5 +1,8 @@
 package hu.unideb.inf.dressmaker.clientapi.modell;
 
+/**
+ * Class representing a section on the view side
+ */
 public class SectionVO {
 
     private Long id;
