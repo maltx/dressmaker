@@ -33,7 +33,6 @@ public class DeleteWorkerController {
     private void deleteWorker(){
         WorkerVO workerVO = (WorkerVO) workersCB.getSelectionModel().getSelectedItem();
         workerService.remove(workerVO);
-        System.out.println(workerVO);
     }
 
     @FXML

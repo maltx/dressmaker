@@ -5,6 +5,7 @@ import hu.unideb.inf.dressmaker.core.service.database.entity.Section;
 import hu.unideb.inf.dressmaker.core.service.database.entity.Status;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import java.util.List;
 

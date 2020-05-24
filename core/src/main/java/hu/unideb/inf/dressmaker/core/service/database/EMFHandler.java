@@ -3,10 +3,12 @@ package hu.unideb.inf.dressmaker.core.service.database;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.PersistenceContext;
 
 public class EMFHandler {
 
     private static EntityManagerFactory EMF;
+
 
     static {
         EMF = Persistence.createEntityManagerFactory("persistence");

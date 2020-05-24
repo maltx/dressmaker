@@ -5,6 +5,7 @@ import hu.unideb.inf.dressmaker.core.service.database.entity.Section;
 import hu.unideb.inf.dressmaker.core.service.database.entity.Worker;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
 import java.util.List;
@@ -38,17 +39,15 @@ public class WorkerDao {
         return typedQuery.getSingleResult();
     }
 
-    @Transactional
     public void persist(Worker worker) {
-        System.out.println(worker);
+        EM.getTransaction().begin();
         EM.persist(worker);
+        EM.getTransaction().commit();
     }
 
-    @Transactional
     public void remove(Worker worker) {
-        System.out.println(EM.merge(worker));
-        //EM.remove(EM.contains(worker) ? worker : EM.merge(worker));
-        EM.remove(findById(worker.getId()));
-        System.out.println(worker);
+        EM.getTransaction().begin();
+        EM.remove(EM.merge(worker));
+        EM.getTransaction().commit();
     }
 }
