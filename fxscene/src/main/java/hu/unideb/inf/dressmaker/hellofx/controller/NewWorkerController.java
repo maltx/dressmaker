@@ -7,7 +7,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
-import lombok.Data;
 
 import java.io.IOException;
 
@@ -23,10 +22,7 @@ public class NewWorkerController {
     PresenceService presenceService = new PresenceServiceImpl();
 
     public void initialize(){
-        //sectionNameLabel.setText(menu.getNewWorkerCB().getSelectionModel().getSelectedItem().toString());
-        //sectionNameLabel.setText("ember");
-        //menuController.
-
+        sectionNameLabel.setText(menuController.temp);
     }
 
     @FXML

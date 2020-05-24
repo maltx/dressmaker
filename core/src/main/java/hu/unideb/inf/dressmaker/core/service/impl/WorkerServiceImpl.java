@@ -35,11 +35,13 @@ public class WorkerServiceImpl implements WorkerService {
 
     @Override
     public void persist(WorkerVO workerVO) {
-
+        workerDao.persist(ObjectMapperUtils.map(workerVO, Worker.class));
     }
 
     @Override
     public void remove(WorkerVO workerVO) {
-
+        workerDao.remove(ObjectMapperUtils.map(workerVO, Worker.class));
+        System.out.println(workerVO);
+        System.out.println(ObjectMapperUtils.map(workerVO, Worker.class));
     }
 }

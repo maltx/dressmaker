@@ -1,5 +1,6 @@
 package hu.unideb.inf.dressmaker.hellofx.controller;
 
+import hu.unideb.inf.dressmaker.clientapi.modell.WorkerVO;
 import hu.unideb.inf.dressmaker.clientapi.service.WorkerService;
 import hu.unideb.inf.dressmaker.core.service.impl.WorkerServiceImpl;
 import hu.unideb.inf.dressmaker.hellofx.main.App;
@@ -12,6 +13,8 @@ import java.io.IOException;
 public class DeleteWorkerController {
     WorkerService workerService = new WorkerServiceImpl();
 
+    MenuController menuController = new MenuController();
+
     @FXML
     private javafx.scene.control.Button exitButton;
 
@@ -22,7 +25,15 @@ public class DeleteWorkerController {
     private ChoiceBox workersCB;
 
     public void initialize(){
-        workersCB.getItems().addAll(workerService.findAll());
+        sectionNameLabel.setText(menuController.temp);
+        workersCB.getItems().addAll(workerService.findWorkersBySection(menuController.temp));
+    }
+
+    @FXML
+    private void deleteWorker(){
+        WorkerVO workerVO = (WorkerVO) workersCB.getSelectionModel().getSelectedItem();
+        workerService.remove(workerVO);
+        System.out.println(workerVO);
     }
 
     @FXML

@@ -1,14 +1,8 @@
 package hu.unideb.inf.dressmaker.clientapi.modell;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 
 import java.util.Date;
 
-@Getter
-@Setter
-@ToString
 public class PresenceVO {
 
     private Long id;
@@ -21,4 +15,54 @@ public class PresenceVO {
 
     private Date datum;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public WorkerVO getWorker() {
+        return worker;
+    }
+
+    public void setWorker(WorkerVO worker) {
+        this.worker = worker;
+    }
+
+    public SectionVO getSection() {
+        return section;
+    }
+
+    public void setSection(SectionVO section) {
+        this.section = section;
+    }
+
+    public StatusVO getStatus() {
+        return status;
+    }
+
+    public void setStatus(StatusVO status) {
+        this.status = status;
+    }
+
+    public Date getDatum() {
+        return datum;
+    }
+
+    public void setDatum(Date datum) {
+        this.datum = datum;
+    }
+
+    @Override
+    public String toString() {
+        return "PresenceVO{" +
+                "id=" + id +
+                ", worker=" + worker +
+                ", section=" + section +
+                ", status=" + status +
+                ", datum=" + datum +
+                '}';
+    }
 }

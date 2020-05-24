@@ -10,9 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+
 
 import java.io.IOException;
 
@@ -20,7 +18,7 @@ public class MenuController {
 
     SectionService sectionService = new SectionServiceImpl();
 
-    WorkerService workerService = new WorkerServiceImpl();
+    static String temp;
 
     @FXML private javafx.scene.control.Button exitButton;
 
@@ -41,11 +39,14 @@ public class MenuController {
     }
 
     @FXML
-    private void openNewWorkerScene() throws IOException {App.setRoot("newWorker");
+    private void openNewWorkerScene() throws IOException {
+        temp = newWorkerCB.getSelectionModel().getSelectedItem().toString();
+        App.setRoot("newWorker");
     }
 
     @FXML
     private void openDeleteWorkerScene() throws IOException{
+        temp = newWorkerCB.getSelectionModel().getSelectedItem().toString();
         App.setRoot("deleteWorker");
     }
 

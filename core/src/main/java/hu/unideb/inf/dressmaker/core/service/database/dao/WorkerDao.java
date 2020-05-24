@@ -19,7 +19,8 @@ public class WorkerDao {
     }
 
     public List<Worker> findWorkersBySection(String sectionName){
-        TypedQuery<Worker> typedQuery = EM.createQuery("SELECT w FROM Worker w where w.section = :sectionName", Worker.class);
+        TypedQuery<Worker> typedQuery = EM.createQuery("SELECT w FROM Worker w where w.section.section = :sectionName", Worker.class);
+        typedQuery.setParameter("sectionName", sectionName);
 
         return typedQuery.getResultList();
     }
@@ -30,6 +31,13 @@ public class WorkerDao {
         return typedQuery.getResultList();
     }
 
+    public Worker findById(Long id){
+        TypedQuery<Worker> typedQuery = EM.createQuery("SELECT w FROM Worker w where w.id = :id", Worker.class);
+        typedQuery.setParameter("id", id);
+
+        return typedQuery.getSingleResult();
+    }
+
     @Transactional
     public void persist(Worker worker) {
         EM.persist(worker);
@@ -37,6 +45,9 @@ public class WorkerDao {
 
     @Transactional
     public void remove(Worker worker) {
-        EM.remove(worker);
+        System.out.println(EM.merge(worker));
+        //EM.remove(EM.contains(worker) ? worker : EM.merge(worker));
+        EM.remove(findById(worker.getId()));
+        System.out.println(worker);
     }
 }
