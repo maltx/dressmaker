@@ -17,7 +17,7 @@ public interface PresenceService {
 
     /**
      * Inserts a given presence.
-     * @param presenceVO
+     * @param presenceVO a presence
      */
     void persist(PresenceVO presenceVO);
 

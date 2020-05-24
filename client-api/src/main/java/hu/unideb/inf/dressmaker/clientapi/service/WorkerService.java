@@ -18,28 +18,28 @@ public interface WorkerService {
 
     /**
      * Returns workers under a specific section.
-     * @param sectionName
+     * @param sectionName name of a section
      * @return workers under a specific section
      */
     List<WorkerVO> findWorkersBySection(String sectionName);
 
     /**
      * Return only the names of the workers under a spicific section.
-     * @param sectionName
+     * @param sectionName name of a section
      * @return only the names of the workers under a spicific section
      */
     List<String> findWorkerNamesBySection(String sectionName);
 
     /**
      * Inserts a worker.
-     * @param workerName
-     * @param sectionVO
+     * @param workerName name of a worker
+     * @param sectionVO a section
      */
     void persist(String workerName, SectionVO sectionVO);
 
     /**
      * Deletes a worker.
-     * @param workerVO
+     * @param workerVO a worker
      */
     void remove(WorkerVO workerVO);
 }

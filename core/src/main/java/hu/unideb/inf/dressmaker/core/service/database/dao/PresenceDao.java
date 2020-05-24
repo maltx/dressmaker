@@ -24,7 +24,7 @@ public class PresenceDao {
 
     /**
      * Inserts a row to the presence table.
-     * @param presence
+     * @param presence a presence
      */
     public void persist(Presence presence){
         EM.getTransaction().begin();

@@ -24,7 +24,7 @@ public class WorkerDao {
 
     /**
      * Returns the workers under a specific section.
-     * @param sectionName
+     * @param sectionName name of a section
      * @return the workers under a specific section
      */
     public List<Worker> findWorkersBySection(String sectionName){
@@ -36,7 +36,7 @@ public class WorkerDao {
 
     /**
      * Returns the names of the workers without id under a specific section.
-     * @param sectionName
+     * @param sectionName name of a section
      * @return the names of the workers under a specific section
      */
     public List<String> findWorkerNamesBySection(String sectionName){
@@ -48,7 +48,7 @@ public class WorkerDao {
     /**
      * Inner method.
      * Returns a worker with a specific id.
-     * @param id
+     * @param id id
      * @return a worker
      */
     public Worker findById(Long id){
@@ -60,7 +60,7 @@ public class WorkerDao {
 
     /**
      * Inserts a worker to the worker table.
-     * @param worker
+     * @param worker a worker
      */
     public void persist(Worker worker) {
         EM.getTransaction().begin();
@@ -70,7 +70,7 @@ public class WorkerDao {
 
     /**
      * Deletes a worker from the worker table.
-     * @param worker
+     * @param worker a worker
      */
     public void remove(Worker worker) {
         EM.getTransaction().begin();
