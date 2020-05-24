@@ -32,8 +32,6 @@ public class App extends Application {
         scene = new Scene(loadFXML("menu"));
         scene.getStylesheets().add(App.class.getResource("/view/styles.css").toExternalForm());
         stage.setScene(scene);
-        //presenceCB.getItems().addAll(options);
-        //menu.setPresenceCB(presenceCB);
         stage.show();
     }
 
