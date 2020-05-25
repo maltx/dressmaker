@@ -1,9 +1,7 @@
 import hu.unideb.inf.dressmaker.core.service.database.dao.SectionDao;
 import hu.unideb.inf.dressmaker.core.service.database.dao.StatusDao;
-import hu.unideb.inf.dressmaker.core.service.database.dao.WorkerDao;
 import hu.unideb.inf.dressmaker.core.service.database.entity.Section;
 import hu.unideb.inf.dressmaker.core.service.database.entity.Status;
-import hu.unideb.inf.dressmaker.core.service.database.entity.Worker;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

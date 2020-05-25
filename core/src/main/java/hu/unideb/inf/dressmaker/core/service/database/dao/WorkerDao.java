@@ -2,6 +2,8 @@ package hu.unideb.inf.dressmaker.core.service.database.dao;
 
 import hu.unideb.inf.dressmaker.core.service.database.EMFHandler;
 import hu.unideb.inf.dressmaker.core.service.database.entity.Worker;
+import org.tinylog.Logger;
+
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import java.util.List;
@@ -19,6 +21,7 @@ public class WorkerDao {
     public List<Worker> findAll(){
         TypedQuery<Worker> typedQuery = EM.createQuery("SELECT w FROM Worker w", Worker.class);
 
+        Logger.info("Selected all the workers from the database");
         return typedQuery.getResultList();
     }
 
@@ -31,6 +34,7 @@ public class WorkerDao {
         TypedQuery<Worker> typedQuery = EM.createQuery("SELECT w FROM Worker w where w.section.section = :sectionName", Worker.class);
         typedQuery.setParameter("sectionName", sectionName);
 
+        Logger.info("Selected all the workers under a specified section from the database");
         return typedQuery.getResultList();
     }
 
@@ -42,6 +46,7 @@ public class WorkerDao {
     public List<String> findWorkerNamesBySection(String sectionName){
         TypedQuery<String> typedQuery = EM.createQuery("SELECT w.name FROM Worker w where w.name = :sectionName", String.class);
 
+        Logger.info("Selected the names of the statuses under a specified section from the database");
         return typedQuery.getResultList();
     }
 
@@ -66,6 +71,7 @@ public class WorkerDao {
         EM.getTransaction().begin();
         EM.persist(worker);
         EM.getTransaction().commit();
+        Logger.info("A new worker inserted to the database. Commit");
     }
 
     /**
@@ -76,5 +82,6 @@ public class WorkerDao {
         EM.getTransaction().begin();
         EM.remove(EM.merge(worker));
         EM.getTransaction().commit();
+        Logger.info("Deleted a worker from the database");
     }
 }
