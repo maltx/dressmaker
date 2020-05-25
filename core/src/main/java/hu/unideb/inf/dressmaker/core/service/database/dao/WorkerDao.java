@@ -45,6 +45,7 @@ public class WorkerDao {
      */
     public List<String> findWorkerNamesBySection(String sectionName){
         TypedQuery<String> typedQuery = EM.createQuery("SELECT w.name FROM Worker w where w.name = :sectionName", String.class);
+        typedQuery.setParameter("sectionName", sectionName);
 
         Logger.info("Selected the names of the statuses under a specified section from the database");
         return typedQuery.getResultList();
