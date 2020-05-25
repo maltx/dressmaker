@@ -179,7 +179,7 @@
                 <artifactId>maven-project-info-reports-plugin</artifactId>
                 <version>2.7</version>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-clean-plugin</artifactId>
                 <version>2.5</version>
@@ -190,7 +190,7 @@
                         </fileset>
                     </filesets>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 
@@ -242,5 +242,4 @@
             </plugin>
         </plugins>
     </reporting>
-
 </project>
