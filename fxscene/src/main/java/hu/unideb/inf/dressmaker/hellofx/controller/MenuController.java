@@ -2,14 +2,11 @@ package hu.unideb.inf.dressmaker.hellofx.controller;
 
 import hu.unideb.inf.dressmaker.clientapi.modell.SectionVO;
 import hu.unideb.inf.dressmaker.clientapi.service.SectionService;
-import hu.unideb.inf.dressmaker.clientapi.service.WorkerService;
 import hu.unideb.inf.dressmaker.core.service.impl.SectionServiceImpl;
-import hu.unideb.inf.dressmaker.core.service.impl.WorkerServiceImpl;
 import hu.unideb.inf.dressmaker.hellofx.main.App;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 

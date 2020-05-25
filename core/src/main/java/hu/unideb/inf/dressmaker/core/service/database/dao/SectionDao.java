@@ -21,4 +21,16 @@ public class SectionDao {
 
         return typedQuery.getResultList();
     }
+
+    public void persist(Section section){
+        EM.getTransaction().begin();
+        EM.persist(section);
+        EM.getTransaction().commit();
+    }
+
+    public void remove(Section section){
+        EM.getTransaction().begin();
+        EM.remove(EM.merge(section));
+        EM.getTransaction().commit();
+    }
 }
