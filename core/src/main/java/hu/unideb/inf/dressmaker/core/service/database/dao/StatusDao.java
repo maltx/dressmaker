@@ -21,7 +21,6 @@ public class StatusDao {
     public List<Status> findAll(){
         TypedQuery<Status> typedQuery = EM.createQuery("SELECT s FROM Status s", Status.class);
 
-        Logger.info("Selected all the statuses from the database");
         return typedQuery.getResultList();
     }
 
@@ -32,7 +31,6 @@ public class StatusDao {
     public List<String> findStatusNames(){
         TypedQuery<String> typedQuery = EM.createQuery("SELECT s.status FROM Status s", String.class);
 
-        Logger.info("Selected the names of the statuses from the database");
         return typedQuery.getResultList();
     }
 }
