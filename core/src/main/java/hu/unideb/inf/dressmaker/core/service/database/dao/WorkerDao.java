@@ -2,7 +2,6 @@ package hu.unideb.inf.dressmaker.core.service.database.dao;
 
 import hu.unideb.inf.dressmaker.core.service.database.EMFHandler;
 import hu.unideb.inf.dressmaker.core.service.database.entity.Worker;
-import org.tinylog.Logger;
 
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;

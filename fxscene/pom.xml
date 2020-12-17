@@ -4,15 +4,15 @@
 
     <artifactId>fxscene</artifactId>
 
-    <properties>
-        <mainClass>hu.unideb.inf.dressmaker.hellofx.main.Main</mainClass>
-    </properties>
-
     <parent>
         <groupId>hu.unideb.inf</groupId>
         <artifactId>dressmaker</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
+    <properties>
+        <mainClass>hu.unideb.inf.dressmaker.hellofx.main.Main</mainClass>
+    </properties>
 
     <dependencies>
         <dependency>
