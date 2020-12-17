@@ -4,10 +4,7 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/dressmaker?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
-            <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://remotemysql.com:3306/ZbmA2tO0OF"/>
-            <property name="javax.persistence.jdbc.user" value="ZbmA2tO0OF"/>
-            <property name="javax.persistence.jdbc.password" value="GHuEETbAC8"/>-->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/dressmaker"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.password" value="root"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>

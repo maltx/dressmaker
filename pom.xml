@@ -23,6 +23,7 @@
         <module>client-api</module>
         <module>fxscene</module>
         <module>core</module>
+        <module>rest</module>
     </modules>
 
     <developers>

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
         <module name="client-api" />
+        <module name="rest" />
         <module name="fxscene" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="core" target="11" />
       <module name="dressmaker" target="11" />
       <module name="fxscene" target="11" />
+      <module name="rest" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
